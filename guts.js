@@ -8,7 +8,7 @@ btn.addEventListener("click", function() {
     const value = Number(input.value)
     if (isNaN(value)) {
         return;
-      }
+    }
     const meterToFeet = value * 3.281
     const feetToMeter = value / 3.281
     length.textContent = `${value} meters = ${meterToFeet} feet | ${value} feet = ${feetToMeter} meters`

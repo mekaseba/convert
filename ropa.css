@@ -73,6 +73,7 @@ button {
     height: 108.57px;
     width: 500px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-left: auto;
