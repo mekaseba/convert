@@ -5,6 +5,7 @@ let input = document.getElementById("input")
 let btn = document.getElementById("convert")
 
 btn.addEventListener("click", function() {
+    const value = Number(input.value)
     
 })
 
