@@ -26,7 +26,7 @@ body {
 #title {
     font-size: 28px;
     font-weight: 800;
-    padding-top: 30px;
+    padding-top: 33px;
 }
 #twenty {
     font-size: 58px;
@@ -38,6 +38,9 @@ body {
     margin-left: auto;
     margin-right: auto;
     line-height: 24.39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #white {
     margin: 0;
@@ -56,4 +59,14 @@ button {
     border: none;
     border-radius: 5px;
     padding: 9px 27.5px;
+}
+.measure {
+    background-color: #FFFFFF;
+    height: 108.57px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
