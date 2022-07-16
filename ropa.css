@@ -12,7 +12,6 @@ body {
     align-items: center;
     justify-content: center;
     height: 100%;
-
 }
 #purple {
     margin: 0;
@@ -34,9 +33,11 @@ body {
     font-weight: 800;
     border: 2px solid #B295FF;
     border-radius: 5px;
-    width: 100px;
+    width: 117px;
+    height: 83px;
     margin-left: auto;
     margin-right: auto;
+    line-height: 24.39px;
 }
 #white {
     margin: 0;
@@ -54,6 +55,5 @@ button {
     background-color: #FFFFFF;
     border: none;
     border-radius: 5px;
-    padding: 6px 16px;
-    margin-top: 0;
+    padding: 9px 27.5px;
 }
