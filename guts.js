@@ -1,3 +1,14 @@
+
+
+const length = document.getElementById("length")
+const volume = document.getElementById("volume")
+const mass = document.getElementById("mass")
+
+
+
+
+
+
 /*
 1 meter = 3.281 feet
 1 liter = 0.264 gallon
