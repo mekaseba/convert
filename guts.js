@@ -11,9 +11,12 @@ btn.addEventListener("click", function() {
     length.textContent = `${value} meters = ${meterToFeet} feet | ${value} feet = ${feetToMeter} meters`
     const literToGallon = value * 0.264
     const gallonToLiter = value / 0.264
-    length.textContent = `${value} liters = ${literToGallon} gallons | ${value} liters = ${gallonToLiter} gallons`
+    volume.textContent = `${value} liters = ${literToGallon} gallons | ${value} liters = ${gallonToLiter} gallons`
     const kilogramToPound = value * 2.204
     const poundToKilogram = value / 2.204    
-    length.textContent = `${value} kilograms = ${kilogramToPound} pounds | ${value} pounds = ${poundToKilogram} killograms` 
+    mass.textContent = `${value} kilograms = ${kilogramToPound} pounds | ${value} pounds = ${poundToKilogram} killograms` 
+    if (isNaN(value)) {
+        return;
+      }
 })
 

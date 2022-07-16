@@ -43,7 +43,8 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #6943FF;
-    color: #FFFFFF
+    color: #FFFFFF;
+    text-align: center;
 }
 #white {
     margin: 0;
