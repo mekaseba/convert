@@ -6,6 +6,9 @@ let btn = document.getElementById("convert")
 
 btn.addEventListener("click", function() {
     const value = Number(input.value)
+    if (isNaN(value)) {
+        return;
+      }
     const meterToFeet = value * 3.281
     const feetToMeter = value / 3.281
     length.textContent = `${value} meters = ${meterToFeet} feet | ${value} feet = ${feetToMeter} meters`
@@ -15,8 +18,6 @@ btn.addEventListener("click", function() {
     const kilogramToPound = value * 2.204
     const poundToKilogram = value / 2.204    
     mass.textContent = `${value} kilograms = ${kilogramToPound} pounds | ${value} pounds = ${poundToKilogram} killograms` 
-    if (isNaN(value)) {
-        return;
-      }
+
 })
 
