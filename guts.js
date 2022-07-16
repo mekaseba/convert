@@ -6,28 +6,14 @@ let btn = document.getElementById("convert")
 
 btn.addEventListener("click", function() {
     const value = Number(input.value)
-    
+    const meterToFeet = value * 3.281
+    const feetToMeter = value / 3.281
+    length.textContent = `${value} meters = ${meterToFeet} feet | ${value} feet = ${feetToMeter} meters`
+    const literToGallon = value * 0.264
+    const gallonToLiter = value / 0.264
+    length.textContent = `${value} liters = ${literToGallon} gallons | ${value} liters = ${gallonToLiter} gallons`
+    const kilogramToPound = value * 2.204
+    const poundToKilogram = value / 2.204    
+    length.textContent = `${value} kilograms = ${kilogramToPound} pounds | ${value} pounds = ${poundToKilogram} killograms` 
 })
 
-
-
-
-
-/*
-1 meter = 3.281 feet
-1 liter = 0.264 gallon
-1 kilogram = 2.204 pound
-*/
-
-/*let optionTwo = document.getElementById("option-two")
-
-password.addEventListener("click", function() {
-    optionOne.textContent = ""
-    optionTwo.textContent = ""
-    for (let i = 0; i < 15; i++) {
-    const randomOne = Math.floor(Math.random() * characters.length)
-    const randomTwo = Math.floor(Math.random() * characters.length)
-    optionOne.textContent += characters[randomOne]
-    optionTwo.textContent += characters[randomTwo]    
-   
-}})
