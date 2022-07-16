@@ -28,13 +28,14 @@ body {
     padding-top: 33px;
 }
 #twenty {
-    margin-bottom: 26.77;
+    margin-bottom: 26.77px;
     font-size: 58px;
     font-weight: 800;
     border: 2px solid #B295FF;
     border-radius: 5px;
     width: 117px;
     height: 83px;
+    margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
     line-height: 24.39px;
@@ -45,12 +46,15 @@ body {
 #white {
     margin: 0;
     color:#5A537B;
-    height: 444px;
+    padding: 36px 0;
     width: 550px;
     left: 76px;
     top: 126px;
     border-radius: 0px;
     background-color:#F4F4F4;
+    display: flex;
+    flex-direction: column;
+    gap: 23.43px;
 }
 button {
     font-size: 16px;
@@ -72,4 +76,11 @@ button {
     margin-right: auto;
     font-size: 20px;
     font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.math {
+    font-size: 14px;
+    font-weight: 400;
+    color: #353535;
 }
