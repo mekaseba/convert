@@ -11,13 +11,12 @@ btn.addEventListener("click", function() {
     }
     const meterToFeet = value * 3.281
     const feetToMeter = value / 3.281
-    length.textContent = `${value} meters = ${meterToFeet} feet | ${value} feet = ${feetToMeter} meters`
+    length.textContent = `${value} meters = ${meterToFeet.toFixed(3)} feet | ${value} feet = ${feetToMeter.toFixed(3)} meters`
     const literToGallon = value * 0.264
     const gallonToLiter = value / 0.264
-    volume.textContent = `${value} liters = ${literToGallon} gallons | ${value} liters = ${gallonToLiter} gallons`
+    volume.textContent = `${value} liters = ${literToGallon.toFixed(3)} gallons | ${value} liters = ${gallonToLiter.toFixed(3)} gallons`
     const kilogramToPound = value * 2.204
     const poundToKilogram = value / 2.204    
-    mass.textContent = `${value} kilograms = ${kilogramToPound} pounds | ${value} pounds = ${poundToKilogram} killograms` 
+    mass.textContent = `${value} kilograms = ${kilogramToPound.toFixed(3)} pounds | ${value} pounds = ${poundToKilogram.toFixed(3)} killograms` 
 
 })
-
