@@ -1,4 +1,5 @@
 body {
+    margin: 0;
     height: 100vh;
     background-color:#1F2937;
     background-position: center;
@@ -9,6 +10,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    height: 100%;
+
 }
 #purple {
     margin: 0;
@@ -28,7 +32,11 @@ body {
 #twenty {
     font-size: 58px;
     font-weight: 800;
-    border: 2px solid #B295FF;************
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
 }
 #white {
     margin: 0;
@@ -43,4 +51,8 @@ body {
 button {
     font-size: 16px;
     font-weight: 500;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px, 15px;
 }
