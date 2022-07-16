@@ -3,6 +3,9 @@
 const length = document.getElementById("length")
 const volume = document.getElementById("volume")
 const mass = document.getElementById("mass")
+let input = document.getElementById("input")
+let btn = document.getElementById("convert")
+
 
 
 

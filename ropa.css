@@ -27,7 +27,7 @@ body {
     font-weight: 800;
     padding-top: 33px;
 }
-#twenty {
+#input {
     margin-bottom: 26.77px;
     font-size: 58px;
     font-weight: 800;
@@ -42,6 +42,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #6943FF;
 }
 #white {
     margin: 0;
