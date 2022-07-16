@@ -1,3 +1,39 @@
 body {
-    margin: 0;
+    height: 100vh;
+    background-color:#1F2937;
+    text-align: center;
 }
+#box {
+    font-family: 'Inter', sans-serif;
+}
+#purple {
+    margin: 0;
+    background-color: #6943FF;
+    color:#FFFFFF;
+    height: 285px;
+    width: 550px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+}
+#title {
+    font-size: 28px;
+    font-weight: 800;
+    padding-top: 30px;
+}
+#twenty {
+    font-size: 58px;
+    font-weight: 800;
+    border: 1px solid #FFFFFF;
+}
+#white {
+    margin: 0;
+    color:#5A537B;
+    height: 444px;
+    width: 550px;
+    left: 76px;
+    top: 126px;
+    border-radius: 0px;
+    background-color:#F4F4F4;
+}
+
